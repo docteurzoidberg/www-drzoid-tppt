@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://drzoid.tppt.eu/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 10
