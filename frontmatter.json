@@ -1,0 +1,14 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.content.autoUpdateDate": false,
+  "frontMatter.framework.startCommand": "docker run --rm -it --user 1000:1000 -v /home/drzoid/dev/hugo-test:/src -p 1313:1313 klakegg/hugo:0.83.1 server -t terminal",
+  "frontMatter.preview.host": "http://localhost:1313/"
+}
